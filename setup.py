@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='nonebot_plugin_abstract',
-    version='1.0.3',
+    version='1.0.4',
     author='CherryCherries',
     author_email='cherrycherries@foxmail.com',
     url='https://github.com/CherryCherries/nonebot-plugin-abstract',
