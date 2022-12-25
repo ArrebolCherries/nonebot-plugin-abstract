@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_abstract"
-version = "1.0.5"
+version = "1.0.6"
 description = "Plugin for nonebot2 that abstracts statements"
 authors = ["CherryCherries <cherrycherries@foxmail.com>"]
 license = "MIT"
