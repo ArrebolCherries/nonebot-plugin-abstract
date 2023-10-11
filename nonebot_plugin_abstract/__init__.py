@@ -1,10 +1,18 @@
 from nonebot import on_command
 from nonebot.log import logger
 from nonebot.typing import T_State
-from nonebot.adapters.onebot.v11 import Bot, Event, Message
+from nonebot.adapters import Bot, Event, Message
 from nonebot.params import CommandArg, ArgStr
+from nonebot.plugin import PluginMetadata
 from .data import text_to_emoji
 
+__plugin_meta__ = PluginMetadata(
+    name="nonebot-plugin-abstract",
+    description="适用于 Nonebot2 的语句抽象化插件",
+    usage="抽象 [要抽象的语句]",
+    type="application",
+    homepage="https://github.com/ArrebolCherries/nonebot-plugin-abstract",
+)
 
 abstract = on_command("abstract", aliases={"抽象", "抽象化"}, priority=5, block=True)
 
