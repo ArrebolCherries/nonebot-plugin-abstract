@@ -1,7 +1,7 @@
 from nonebot import on_command
 from nonebot.log import logger
 from nonebot.typing import T_State
-from nonebot.adapters.onebot.v11 import Bot, Event, Message
+from nonebot.adapters import Bot, Event, Message
 from nonebot.params import CommandArg, ArgStr
 from .data import text_to_emoji
 
